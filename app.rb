@@ -13,7 +13,7 @@ end
 
   post '/checkout' do
 
-    @item = params
+    @item = sessions[:item]
     binding.pry
     erb :checkout
   end
