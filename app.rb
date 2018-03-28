@@ -13,7 +13,7 @@ end
 
   post '/checkout' do
 
-    @item = sessions[:item]
+  
     
     erb :checkout
   end
