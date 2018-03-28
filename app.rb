@@ -10,4 +10,8 @@ end
   get '/' do
     erb :index
   end
+
+  post '/checkout'
+
+  erb :checkout
 end
