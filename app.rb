@@ -14,7 +14,7 @@ end
   post '/checkout' do
 
     @item = sessions[:item]
-    binding.pry
+    
     erb :checkout
   end
 
